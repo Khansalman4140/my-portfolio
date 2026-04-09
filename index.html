@@ -4,205 +4,134 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Md Salman Khan | Network & DevOps Journey</title>
+  <title>Md Salman Khan | Network & DevOps Engineer</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .skill-badge { @apply px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider; }
+    .progress-bar { height: 8px; border-radius: 4px; background: #e2e8f0; position: relative; overflow: hidden; }
+    .progress-fill { height: 100%; position: absolute; left: 0; top: 0; transition: width 1s ease-in-out; }
+  </style>
 </head>
 
-<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+<body class="bg-gray-50 font-sans leading-normal tracking-normal text-gray-900">
 
-  <header class="bg-gradient-to-r from-[#0693e3] via-[#00d084] to-[#ff6900] text-white py-20">
+  <header class="bg-gradient-to-r from-[#0693e3] via-[#00d084] to-[#ff6900] text-white py-24 shadow-inner">
     <div class="container mx-auto px-6 text-center">
-      <h1 class="text-5xl font-bold">Md Salman Khan</h1>
-      <p class="text-2xl mt-4 opacity-90">Network Engineer | Aspiring DevOps Professional | CCNA</p>
-      <div class="flex items-center justify-center gap-6 mt-8">
-        <a href="https://github.com/Khansalman4140" target="_blank" class="text-xl font-semibold border-b-2 border-transparent hover:border-white transition">GitHub</a>
-        <a href="https://www.linkedin.com/in/salman-devops/" target="_blank" class="text-xl font-semibold border-b-2 border-transparent hover:border-white transition">LinkedIn</a>
+      <h1 class="text-6xl font-extrabold tracking-tight">Md Salman Khan</h1>
+      <p class="text-2xl mt-6 opacity-95 font-medium">Core Network Engineer | Aspiring DevOps Professional</p>
+      <div class="flex items-center justify-center gap-8 mt-10">
+        <a href="https://github.com/Khansalman4140" target="_blank" class="bg-white/20 backdrop-blur-md px-6 py-2 rounded-full hover:bg-white/40 transition font-bold">GitHub</a>
+        <a href="https://www.linkedin.com/in/salman-devops/" target="_blank" class="bg-white/20 backdrop-blur-md px-6 py-2 rounded-full hover:bg-white/40 transition font-bold">LinkedIn</a>
       </div>
     </div>
   </header>
 
-  <section id="about" class="py-20 bg-white">
-  <div class="container mx-auto px-6">
-    <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">About Me</h2>
-    
-    <div class="max-w-5xl mx-auto">
-      <div class="bg-gray-50 p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
-        <p class="text-xl text-gray-700 leading-relaxed mb-8">
-          For the past <span class="text-[#0693e3] font-bold">3 years</span>, I have been navigating the "plumbing" of the digital world as a <span class="font-semibold">Core Network Engineer</span> in the high-stakes ISP industry. From managing complex BGP routing and peering with upstream providers to ensuring <span class="text-[#00d084] font-bold">99.9% uptime</span> for massive FTTH subscriber bases, I have built a deep, hands-on understanding of how data moves across the global web.
-        </p>
-
-        <div class="bg-white border-l-4 border-[#ff6900] p-6 my-8 shadow-sm italic rounded-r-lg">
-          <p class="text-lg text-gray-600">
-            "I realized that the future of infrastructure isn't just about hardware—it's about <span class="text-[#ff6900] font-bold">Automation and Scalability</span>."
-          </p>
-        </div>
-
-        <p class="text-lg text-gray-700 leading-relaxed mb-10">
-          Currently, I am undergoing a professional transformation through the <span class="font-bold text-gray-800">DevOps Professional Roadmap at BongoDev</span>. I am bridging the gap between my networking expertise and modern cloud-native practices. My unique strength lies in my ability to troubleshoot the <span class="underline decoration-[#0693e3] decoration-2">OSI model and network security</span>—the critical foundation that many DevOps engineers overlook.
-        </p>
-
-        <div class="mt-12">
-          <h3 class="text-2xl font-bold text-gray-800 mb-8 flex items-center">
-            <span class="mr-3">🚀</span> What I bring to the table:
-          </h3>
-          
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="flex items-start p-4 rounded-xl hover:bg-white hover:shadow-md transition duration-300">
-              <div class="text-[#0693e3] mr-4 text-xl">✔</div>
-              <div>
-                <h4 class="font-bold text-gray-800">3 Years of Core Networking</h4>
-                <p class="text-gray-600 text-sm">Expertise in MikroTik, Cisco, BGP, OSPF, and DDoS mitigation.</p>
-              </div>
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-4">My DevOps Journey</h2>
+      <p class="text-gray-500 mb-16">Bridging Networking with Cloud Automation</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div class="p-8 bg-gray-50 rounded-3xl border border-gray-100 shadow-sm">
+          <div class="text-3xl mb-4">✅</div>
+          <h3 class="text-xl font-bold mb-6">Completed & Expert</h3>
+          <div class="space-y-6 text-left">
+            <div>
+              <div class="flex justify-between mb-2"><span class="font-bold">Networking (BGP/OSPF)</span><span>95%</span></div>
+              <div class="progress-bar"><div class="progress-fill bg-[#0693e3]" style="width: 95%"></div></div>
             </div>
-
-            <div class="flex items-start p-4 rounded-xl hover:bg-white hover:shadow-md transition duration-300">
-              <div class="text-[#00d084] mr-4 text-xl">✔</div>
-              <div>
-                <h4 class="font-bold text-gray-800">The DevOps Transition</h4>
-                <p class="text-gray-600 text-sm">Actively mastering Docker, Kubernetes, Jenkins, and GitHub Actions.</p>
-              </div>
+            <div>
+              <div class="flex justify-between mb-2"><span class="font-bold">Linux Admin / Bash</span><span>85%</span></div>
+              <div class="progress-bar"><div class="progress-fill bg-[#0693e3]" style="width: 85%"></div></div>
             </div>
-
-            <div class="flex items-start p-4 rounded-xl hover:bg-white hover:shadow-md transition duration-300">
-              <div class="text-[#ff6900] mr-4 text-xl">✔</div>
-              <div>
-                <h4 class="font-bold text-gray-800">Infrastructure as Code</h4>
-                <p class="text-gray-600 text-sm">Moving to automated environments using Terraform and Ansible.</p>
-              </div>
-            </div>
-
-            <div class="flex items-start p-4 rounded-xl hover:bg-white hover:shadow-md transition duration-300">
-              <div class="text-[#0693e3] mr-4 text-xl">✔</div>
-              <div>
-                <h4 class="font-bold text-gray-800">Cloud Native Thinking</h4>
-                <p class="text-gray-600 text-sm">Leveraging AWS to build scalable, resilient architectures.</p>
-              </div>
+            <div>
+              <div class="flex justify-between mb-2"><span class="font-bold">Docker & Containers</span><span>80%</span></div>
+              <div class="progress-bar"><div class="progress-fill bg-[#0693e3]" style="width: 80%"></div></div>
             </div>
           </div>
         </div>
 
-        <div class="mt-12 text-center border-t border-gray-200 pt-8">
-          <p class="text-xl font-medium text-gray-800 italic">
-            "I am a Continuous Learner, a technical problem solver, and an aspiring DevOps professional ready to automate the next generation of infrastructure."
-          </p>
+        <div class="p-8 bg-gray-50 rounded-3xl border border-gray-100 shadow-sm">
+          <div class="text-3xl mb-4">🔄</div>
+          <h3 class="text-xl font-bold mb-6">In Progress / Learning</h3>
+          <div class="space-y-6 text-left">
+            <div>
+              <div class="flex justify-between mb-2"><span class="font-bold">AWS Cloud Services</span><span>65%</span></div>
+              <div class="progress-bar"><div class="progress-fill bg-[#ff6900]" style="width: 65%"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-2"><span class="font-bold">GitHub Actions (CI/CD)</span><span>60%</span></div>
+              <div class="progress-bar"><div class="progress-fill bg-[#ff6900]" style="width: 60%"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-2"><span class="font-bold">Python for DevOps</span><span>50%</span></div>
+              <div class="progress-bar"><div class="progress-fill bg-[#ff6900]" style="width: 50%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-8 bg-gray-50 rounded-3xl border border-gray-100 shadow-sm">
+          <div class="text-3xl mb-4">🚀</div>
+          <h3 class="text-xl font-bold mb-6">Next Milestones</h3>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-gray-200 text-gray-700 skill-badge">Kubernetes (K8s)</span>
+            <span class="bg-gray-200 text-gray-700 skill-badge">Terraform (IaC)</span>
+            <span class="bg-gray-200 text-gray-700 skill-badge">Ansible</span>
+            <span class="bg-gray-200 text-gray-700 skill-badge">Monitoring (Prometheus)</span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-  <section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold mb-12 text-gray-800">Technical Expertise</h2>
+  <section id="projects" class="py-24 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">Featured Projects</h2>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-white p-6 shadow-md rounded-xl border-t-4 border-[#cf2e2e] text-left">
-          <h3 class="text-xl font-bold text-[#cf2e2e] mb-4">ISP & Core Networking</h3>
-          <ul class="space-y-2 text-gray-600 text-sm">
-            <li>• Core Routing (BGP, OSPF)</li>
-            <li>• MikroTik & Cisco Configuration</li>
-            <li>• FTTH (GPON OLT/ONU Management)</li>
-            <li>• Bandwidth Shaping & QoS</li>
-            <li>• Network Security & DDoS Mitigation</li>
-          </ul>
-        </div>
-
-        <div class="bg-white p-6 shadow-md rounded-xl border-t-4 border-[#0693e3]">
-          <h3 class="text-xl font-bold text-[#0693e3] mb-2">Cloud Ecosystem</h3>
-          <p class="text-xs text-gray-400 uppercase tracking-widest mb-4 italic">Learning Phase</p>
-          <p class="text-gray-700">AWS (EC2, S3, VPC), Azure, Google Cloud</p>
-        </div>
-
-        <div class="bg-white p-6 shadow-md rounded-xl border-t-4 border-[#ff6900]">
-          <h3 class="text-xl font-bold text-[#ff6900] mb-2">Containers & K8s</h3>
-          <p class="text-xs text-gray-400 uppercase tracking-widest mb-4 italic">Learning Phase</p>
-          <p class="text-gray-700">Docker, Kubernetes (K8s), Helm Charts</p>
-        </div>
-
-        <div class="bg-white p-6 shadow-md rounded-xl border-t-4 border-[#00d084]">
-          <h3 class="text-xl font-bold text-[#00d084] mb-2">CI/CD Automation</h3>
-          <p class="text-xs text-gray-400 uppercase tracking-widest mb-4 italic">Learning Phase</p>
-          <p class="text-gray-700">GitHub Actions, Jenkins, GitLab CI</p>
-        </div>
-
-        <div class="bg-white p-6 shadow-md rounded-xl border-t-4 border-[#0693e3]">
-          <h3 class="text-xl font-bold text-[#0693e3] mb-2">Infrastructure as Code</h3>
-          <p class="text-xs text-gray-400 uppercase tracking-widest mb-4 italic">Learning Phase</p>
-          <p class="text-gray-700">Terraform, Ansible (Network Automation)</p>
-        </div>
-
-        <div class="bg-white p-6 shadow-md rounded-xl border-t-4 border-[#ff6900]">
-          <h3 class="text-xl font-bold text-[#ff6900] mb-2">Scripting & OS</h3>
-          <p class="text-xs text-gray-400 uppercase tracking-widest mb-4 italic">Learning Phase</p>
-          <p class="text-gray-700">Python, Bash, Linux Admin</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-16">
-    <div class="container mx-auto px-6 max-w-4xl">
-      <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Experience</h2>
-      <div class="space-y-8">
-        <div class="relative pl-8 border-l-2 border-[#0693e3]">
-          <div class="absolute w-4 h-4 bg-[#0693e3] rounded-full -left-[9px] top-1"></div>
-          <h3 class="text-xl font-bold text-gray-800">Core Network Engineer ( ISP)</h3>
-          <p class="text-sm text-[#0693e3] font-medium">2022 - Present</p>
-          <p class="mt-4 text-gray-600">Managing complex ISP routing, peering with upstream providers (BGP), and ensuring 99.9% uptime for massive FTTH subscriber bases.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="projects" class="py-20 bg-gray-50">
-    <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Featured Projects</h2>
-      
-      <div class="grid grid-cols-1 gap-12 max-w-4xl mx-auto">
         
-        <div class="bg-white rounded-3xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-2xl transition duration-500 group">
-          <div class="relative h-56 bg-gradient-to-br from-[#ff6900] to-[#cf2e2e] flex items-center justify-center">
-            <span class="text-7xl group-hover:rotate-12 transition duration-500">🚀</span>
-            <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-white uppercase tracking-widest">
-              Automation & Scripting
-            </div>
+        <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col hover:-translate-y-2 transition duration-300">
+          <div class="h-48 bg-gradient-to-br from-[#24292e] to-[#0693e3] flex items-center justify-center">
+            <span class="text-6xl">⚙️</span>
           </div>
-          <div class="p-8 text-left">
-            <h3 class="text-2xl font-bold text-gray-800 mb-3">Automated 3-Tier App Deployment</h3>
-            <p class="text-gray-600 mb-6 leading-relaxed">
-              একটি পূর্ণাঙ্গ ৩-টায়ার অ্যাপ্লিকেশন (Frontend, Backend, DB) <strong>AWS EC2</strong>-তে ডেপ্লয়মেন্ট। আমি প্রথমে পুরো প্রসেসটি ম্যানুয়ালি করেছি এবং পরবর্তীতে একটি <strong>Bash Script</strong> এর মাধ্যমে পুরো ইনফ্রাস্ট্রাকচার সেটআপ অটোমেট করেছি।
-            </p>
-            <div class="flex flex-wrap gap-2 mb-8">
-              <span class="bg-orange-50 px-3 py-1 rounded-md text-xs font-bold text-orange-600">Bash Scripting</span>
-              <span class="bg-blue-50 px-3 py-1 rounded-md text-xs font-bold text-blue-600">AWS EC2</span>
-              <span class="bg-green-50 px-3 py-1 rounded-md text-xs font-bold text-green-600">Nginx</span>
-              <span class="bg-red-50 px-3 py-1 rounded-md text-xs font-bold text-red-600">MongoDB</span>
+          <div class="p-8 flex-1 flex flex-col">
+            <h3 class="text-xl font-bold mb-3">Docker CI/CD Pipeline</h3>
+            <p class="text-gray-600 text-sm mb-6">GitHub Actions ব্যবহার করে Docker Image বিল্ড এবং AWS EC2-তে অটোমেটেড ডেপ্লয়মেন্ট।</p>
+            <div class="flex flex-wrap gap-2 mb-6 mt-auto">
+              <span class="text-[10px] bg-blue-50 text-blue-600 font-bold px-2 py-1 rounded">GITHUB ACTIONS</span>
+              <span class="text-[10px] bg-blue-100 text-blue-800 font-bold px-2 py-1 rounded">DOCKER</span>
             </div>
-            <a href="https://github.com/Khansalman4140/3-tier-app" target="_blank" class="inline-block w-full text-center py-4 bg-gray-900 text-white font-bold rounded-xl hover:bg-[#ff6900] transition duration-300">
-              GitHub Repo
-            </a>
+            <a href="https://github.com/Khansalman4140/Docker-CICD" target="_blank" class="block text-center py-3 bg-gray-900 text-white font-bold rounded-xl hover:bg-[#0693e3]">Repo Link</a>
           </div>
         </div>
 
-        <div class="bg-white rounded-3xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-2xl transition duration-500 group">
-          <div class="relative h-56 bg-gradient-to-br from-[#0693e3] to-[#00d084] flex items-center justify-center">
-            <span class="text-7xl group-hover:scale-110 transition duration-500">🛒</span>
-            <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-white uppercase tracking-widest">
-              Serverless Architecture
-            </div>
+        <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col hover:-translate-y-2 transition duration-300">
+          <div class="h-48 bg-gradient-to-br from-[#ff6900] to-[#cf2e2e] flex items-center justify-center text-white">
+            <span class="text-6xl">🚀</span>
           </div>
-          <div class="p-8 text-left">
-            <h3 class="text-2xl font-bold text-gray-800 mb-3">BongoCommerce: Cloud Deployment</h3>
-            <p class="text-gray-600 mb-6 leading-relaxed">
-              একটি আধুনিক ই-commerce অ্যাপ্লিকেশন যেখানে ফ্রন্টএন্ড <strong>AWS EC2</strong>-তে এবং ব্যাকএন্ড <strong>AWS Lambda (Serverless)</strong>-এ ডেপ্লয় করা হয়েছে। ডাটাবেস হিসেবে ব্যবহার করা হয়েছে <strong>DynamoDB</strong>।
-            </p>
-            <div class="flex flex-wrap gap-2 mb-8">
-              <span class="bg-blue-50 px-3 py-1 rounded-md text-xs font-bold text-blue-600">AWS EC2</span>
-              <span class="bg-green-50 px-3 py-1 rounded-md text-xs font-bold text-green-600">AWS Lambda</span>
-              <span class="bg-orange-50 px-3 py-1 rounded-md text-xs font-bold text-orange-600">DynamoDB</span>
+          <div class="p-8 flex-1 flex flex-col">
+            <h3 class="text-xl font-bold mb-3">Automated 3-Tier App</h3>
+            <p class="text-gray-600 text-sm mb-6">একটি পূর্ণাঙ্গ ৩-টায়ার অ্যাপ্লিকেশন Bash Script ব্যবহার করে EC2-তে অটোমেট সেটআপ।</p>
+            <div class="flex flex-wrap gap-2 mb-6 mt-auto">
+              <span class="text-[10px] bg-orange-50 text-orange-600 font-bold px-2 py-1 rounded">BASH SCRIPT</span>
+              <span class="text-[10px] bg-red-50 text-red-600 font-bold px-2 py-1 rounded">MONGODB</span>
             </div>
-            <a href="https://github.com/Khansalman4140" target="_blank" class="inline-block w-full text-center py-4 bg-gray-900 text-white font-bold rounded-xl hover:bg-[#0693e3] transition duration-300">
-              View on GitHub
-            </a>
+            <a href="https://github.com/Khansalman4140/3-tier-app" target="_blank" class="block text-center py-3 bg-gray-900 text-white font-bold rounded-xl hover:bg-[#ff6900]">Repo Link</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col hover:-translate-y-2 transition duration-300">
+          <div class="h-48 bg-gradient-to-br from-[#0693e3] to-[#00d084] flex items-center justify-center">
+            <span class="text-6xl">🛒</span>
+          </div>
+          <div class="p-8 flex-1 flex flex-col">
+            <h3 class="text-xl font-bold mb-3">Serverless Commerce</h3>
+            <p class="text-gray-600 text-sm mb-6">AWS Lambda এবং DynamoDB ব্যবহার করে তৈরি একটি সার্ভারলেস ব্যাকএন্ড আর্কিটেকচার।</p>
+            <div class="flex flex-wrap gap-2 mb-6 mt-auto">
+              <span class="text-[10px] bg-blue-50 text-blue-600 font-bold px-2 py-1 rounded">AWS LAMBDA</span>
+              <span class="text-[10px] bg-green-50 text-green-600 font-bold px-2 py-1 rounded">DYNAMODB</span>
+            </div>
+            <a href="https://github.com/Khansalman4140" target="_blank" class="block text-center py-3 bg-gray-900 text-white font-bold rounded-xl hover:bg-[#00d084]">Repo Link</a>
           </div>
         </div>
 
@@ -210,36 +139,28 @@
     </div>
   </section>
 
-  <section id="contact" class="py-20 bg-gray-900 text-white text-center">
-    <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold mb-6">Let's Connect</h2>
-      <p class="text-gray-400 mb-12 max-w-xl mx-auto text-lg">
-        I am eager to transition into a DevOps role where I can apply my 3 years of networking experience to build secure and scalable systems.
-      </p>
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-6 max-w-4xl text-center">
+      <h2 class="text-3xl font-bold mb-12">Current Experience</h2>
+      <div class="relative pl-8 border-l-2 border-[#0693e3] text-left mx-auto max-w-2xl">
+        <div class="absolute w-4 h-4 bg-[#0693e3] rounded-full -left-[9px] top-1"></div>
+        <h3 class="text-xl font-bold">Core Network Engineer (Fiber@Home)</h3>
+        <p class="text-sm text-[#0693e3] font-medium">2022 - Present</p>
+        <p class="mt-4 text-gray-600 leading-relaxed">ম্যানেজিং ISP কোর রাউটিং (BGP/OSPF) এবং বিশাল ইউজার বেইজের জন্য 99.9% আপটাইম নিশ্চিত করা।</p>
+      </div>
 
-      <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
-        
-        <a href="mailto:khansalman4140@gmail.com" 
-           class="flex items-center justify-center gap-3 bg-[#0693e3] text-white px-8 py-4 rounded-full font-bold hover:bg-[#00d084] transition transform hover:scale-105 w-full sm:w-auto shadow-lg">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-          </svg>
-          khansalman4140@gmail.com
-        </a>
-
-        <a href="tel:+8801786468872" 
-           class="flex items-center justify-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-full font-bold hover:bg-[#00d084] hover:text-white transition transform hover:scale-105 w-full sm:w-auto shadow-lg">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-          </svg>
-          +880 1786468872
-        </a>
-
+      <div class="mt-24">
+        <h2 class="text-4xl font-bold mb-10">Let's Connect</h2>
+        <div class="flex flex-col sm:flex-row justify-center gap-6">
+          <a href="mailto:khansalman4140@gmail.com" class="bg-[#0693e3] text-white px-10 py-4 rounded-full font-bold shadow-lg hover:scale-105 transition">Email Me</a>
+          <a href="tel:+8801786468872" class="bg-gray-900 text-white px-10 py-4 rounded-full font-bold shadow-lg hover:scale-105 transition">Call: +8801786468872</a>
+        </div>
       </div>
     </div>
   </section>
-  <footer class="py-6 bg-black text-gray-500 text-center text-sm border-t border-gray-800">
-    <p>&copy; 2026 Md Salman Khan - Network & DevOps Journey</p>
+
+  <footer class="py-10 bg-black text-gray-600 text-center text-xs">
+    <p>&copy; 2026 Md Salman Khan | Built with Passion & Automation</p>
   </footer>
 
 </body>
